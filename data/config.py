@@ -170,11 +170,11 @@ pascal_sbd_dataset = dataset_base.copy({
 conveyor = dataset_base.copy({
     'name': 'Conveyor Dataset',
 
-    'train_images': './GeneratedDataset/images/train',
-    'train_info': './GeneratedDataset/train_info.json',
+    'train_images': '../GeneratedDataset/images/train',
+    'train_info': '../GeneratedDataset/train_info.json',
 
-    'valid_images': './GeneratedDataset/images/val',
-    'valid_info': './GeneratedDataset/val_info.json',
+    'valid_images': '../GeneratedDataset/images/val',
+    'valid_info': '../GeneratedDataset/val_info.json',
 
     'has_gt': True,
     'class_names': ("brown", "small-white", "medium-white", "large-white", "banana", "catfood",
